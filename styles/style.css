@@ -31,9 +31,9 @@
 
 .header {
   display: grid;
-  grid-template-columns: 1fr min-content 1fr;
+  grid-template-columns: 1fr 148px 1fr;
   align-items: center;
-  padding: 90px 50px;
+  padding: 92px 50px 96px;
 }
 
 .header__menu {
@@ -75,7 +75,7 @@
 }
 
 .header__logo-image {
-  width: 130px;
+  width: 148px;
   height: auto;
 }
 
@@ -172,13 +172,13 @@
 }
 
 .lots__card-list {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 25px;
 }
 
 .lots__card-list-item {
-  width: calc((100% - 50px) / 3);
+  min-width: 0;
 }
 
 .card-link {
@@ -267,7 +267,7 @@
 }
 
 .about__logo-image {
-  width: 130px;
+  width: 148px;
   height: auto;
 }
 

@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="styles/global.css">
     <link rel="stylesheet" href="styles/style.css">
   </head>
-  <body>
+  <body id="top">
     <header class="header">
       <nav class="header__menu">
         <ul class="header__links-list">
           <li class="header__links-list-item header__links-list-item_no-bullit">
-            <a class="header__link header__link_active" href="#0">главная</a>
+            <a class="header__link header__link_active" href="#top" aria-current="page">главная</a>
           </li>
           <li class="header__links-list-item">
             <a class="header__link" href="#lots">посмотреть лоты</a>
@@ -24,13 +24,13 @@
         </ul>
       </nav>
 
-      <a class="header__logo">
+      <a class="header__logo" href="#top" aria-label="На главную">
         <img
           class="header__logo-image"
           src="images/logo-black.svg"
           alt="Логотип аукциона «Оно тебе надо»"
-          width="130"
-          height="105"
+          width="148"
+          height="114"
         >
       </a>
 
@@ -113,7 +113,7 @@
           </li>
         </ul>
 
-        <a class="lots__look-more-link" href="#0">посмотреть больше</a>
+        <a class="lots__look-more-link" href="#lots">посмотреть больше</a>
       </section>
 
       <section class="about" id="about">
@@ -123,8 +123,8 @@
               class="about__logo-image"
               src="images/logo-white.svg"
               alt="Логотип аукциона «Оно тебе надо»"
-              width="130"
-              height="105"
+              width="148"
+              height="114"
             >
           </div>
         </div>
@@ -164,7 +164,7 @@
       <nav class="footer__menu">
         <ul class="footer__menu-list">
           <li class="footer__menu-list-item">
-            <a class="footer__menu-link footer__menu-link_active" href="#0">главная</a>
+            <a class="footer__menu-link footer__menu-link_active" href="#top" aria-current="page">главная</a>
           </li>
           <li class="footer__menu-list-item">
             <a class="footer__menu-link" href="#lots">посмотреть лоты</a>
